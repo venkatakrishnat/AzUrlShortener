@@ -38,7 +38,7 @@ jobs:
         with:
           languages: "csharp"  # Specify the languages you're analyzing (adjust as necessary)
 
-      - name: dotnet restore
+      - name: dotnet restore src/
         run: dotnet restore
 
       - name: Build
